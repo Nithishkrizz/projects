@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered SVG and Form</title>
+    <style>
+        /* Apply styles to center the form and SVG */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .svg-container {
+            margin-bottom: 20px;
+            margin-left:20px
+        }
+
+        svg {
+            width: 50vw;
+            height: auto;
+            transform: rotate(0deg); /* Adjust the rotation here */
+        }
+
+        form 
 
